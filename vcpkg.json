@@ -3,16 +3,18 @@
     "cpp-httplib",
     "curl",
     "fmt",
-    "nlohmann-json",
+    "glew",
     "glfw3",
     {
       "name": "imgui",
       "features": [
+        "freetype",
         "glfw-binding",
-        "opengl3-binding",
-        "freetype"
+        "opengl3-binding"
       ]
     },
-    "stb"
+    "nlohmann-json",
+    "stb",
+    "freeglut"
   ]
 }

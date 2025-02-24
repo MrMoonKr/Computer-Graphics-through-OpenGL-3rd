@@ -21,6 +21,13 @@ find_package( glfw3 CONFIG REQUIRED )
 find_package( imgui CONFIG REQUIRED )
 find_package( Stb REQUIRED )
 
+find_package( GLEW REQUIRED )
+find_package( GLUT REQUIRED )
+find_package( FreeGLUT CONFIG REQUIRED )
 
-add_subdirectory( "src" )
+
+# add_subdirectory( "src" )
+add_subdirectory( "src/Chapter00" )
+add_subdirectory( "src/Chapter02" )
+
 
