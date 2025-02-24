@@ -32,7 +32,8 @@
                 "CMAKE_EXPORT_COMPILE_COMMANDS": "YES",
                 "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}/bin/msvc",
                 "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
-            }
+            },
+            "hidden": true
         },
         {
             "name": "msys2-mingw64-debug-make",
@@ -45,11 +46,11 @@
                 "CMAKE_C_COMPILER": "C:/msys64/ucrt64/bin/gcc.exe",
                 "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe",
                 "CMAKE_EXPORT_COMPILE_COMMANDS": "YES",
-                "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}/binary/debug",
+                "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${sourceDir}/binary/mingw/Debug",
                 "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
                 "VCPKG_TARGET_TRIPLET": "x64-mingw-dynamic"
             },
-            "hidden": true
+            "hidden": false
         },
         {
             "name": "msys2-mingw64-release-make",
