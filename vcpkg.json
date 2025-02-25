@@ -3,6 +3,7 @@
     "cpp-httplib",
     "curl",
     "fmt",
+    "freeglut",
     "glew",
     "glfw3",
     {
@@ -15,6 +16,6 @@
     },
     "nlohmann-json",
     "stb",
-    "freeglut"
+    "ftgl"
   ]
 }

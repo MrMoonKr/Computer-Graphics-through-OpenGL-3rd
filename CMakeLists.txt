@@ -29,5 +29,6 @@ find_package( FreeGLUT CONFIG REQUIRED )
 # add_subdirectory( "src" )
 add_subdirectory( "src/Chapter00" )
 add_subdirectory( "src/Chapter02" )
+add_subdirectory( "src/Chapter03" )
 
 
